@@ -470,7 +470,7 @@ Partial Class Form1
         Me.Button68.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSalmon
         Me.Button68.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue
         Me.Button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button68.Font = New System.Drawing.Font("UniSansRegular", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button68.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button68.ForeColor = System.Drawing.Color.Black
         Me.Button68.Location = New System.Drawing.Point(738, 18)
         Me.Button68.Name = "Button68"
