@@ -144,7 +144,11 @@ Public Class Form1
                 prec.address(J) = TextBox9.Text
                 s = Val(TextBox1.Text)
                 FilePut(1, prec, s)
-                clear2()
+                If lang = True Then
+                    X = MsgBox("Seat booked !")
+                Else
+                    X = MsgBox("تم حجز المقعد !")
+                End If
             ElseIf X = 2 Then
                 Exit Sub
             End If
@@ -174,7 +178,11 @@ Public Class Form1
                 prec.korsi(J) = z
                 s = Val(TextBox1.Text)
                 FilePut(1, prec, s)
-                clear2()
+                If lang = True Then
+                    X = MsgBox("Seat booking confirmed !")
+                Else
+                    X = MsgBox("تم تأكيد حجز المقعد !")
+                End If
             ElseIf X = 2 Then
 
 
