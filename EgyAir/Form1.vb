@@ -93,6 +93,11 @@ Public Class Form1
                 Next
                 s = Val(TextBox1.Text)
                 FilePut(1, prec, s)
+                If lang = True Then
+                    MsgBox("Trip added successfully !")
+                Else
+                    MsgBox("تمت إضافة الرحلة بنجاح !")
+                End If
             End If
         End If
         clear()
